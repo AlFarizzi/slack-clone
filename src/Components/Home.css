@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* overflow: hidden; */
+}
+
+.home__container {
+    min-height: 100vh;
+}
+
+.content__container {
+    min-height: 100vh;
+    display: flex;
+}

@@ -1,0 +1,61 @@
+.chat__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.chat__box {
+    position: relative;
+    height: 10%;
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.sender__picture {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.sender__name {
+    position: absolute;
+    top : 15px;
+    left: 70px;
+    text-transform: capitalize;
+}
+
+.message {
+    margin-top: -30px;
+    margin-left: 62px;
+}
+
+.room__name {
+    padding :10px 30px; 
+}
+
+
+.chat__input {
+    width: 50%;
+    margin-left: 30px;
+    padding: 10px;
+    border:1px solid lightgray;
+    transition: .25s ease all;
+}
+
+.chat__input:focus {
+    outline : 1px solid lightskyblue;
+}
+
+.send__button {
+    margin-left: 30px;
+    margin-top: 10px;
+    display: block;
+    padding: 10px 15px;
+    border:0;
+    color:white;
+    background-color: #3f0f40;
+    border-radius: 10px;
+}

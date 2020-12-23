@@ -1,0 +1,78 @@
+.sidebar__container {
+    border-top: 1px solid rgba(211,211,211,.486);
+    min-height: 100vh;
+    width: 20%;
+    background-color: #3f0f40;
+}
+.sidebar__user-info {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    color: #fffffd;
+    font-family: sans-serif;
+}
+.user__name {
+    font-size: 14px;
+    padding: 8px 10px;
+    font-weight: 700;
+}
+.user__status {
+    border-bottom: 1px solid rgba(211,211,211,.486);
+    padding: 3px 10px;
+    font-size: 14px;
+}
+.online__icon {
+    margin-right: 5px;
+}
+.menu__container {
+    margin-top: 10px;
+    overflow: hidden;
+}
+.menu__item {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+    height: 30px;
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+.menu__item:first-child {
+    margin-top: 0;
+}
+.menu__item:hover {
+    background-color: #320633;
+}
+.menu__icon {
+    margin-right: 5px;
+    font-size: 15px;
+}
+.channels__container {
+    margin-top: 30px;
+    padding: 12px 0;
+}
+.channel {
+    padding: 15px 10px;
+    display: flex;
+    border-top: 1px solid rgba(211,211,211,.486);
+    border-bottom: 1px solid rgba(211,211,211,.486);
+    width: 100%;
+    color: #fff;
+    font-family: sans-serif;
+}
+.channel__list {
+    padding: 0 30px;
+    margin-top: 3px;
+}
+
+.channel__link {
+    text-decoration: none;
+    color: white
+}
+
+.add__channel {
+    cursor: pointer;
+}

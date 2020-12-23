@@ -1,0 +1,40 @@
+.login__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+}
+
+.login__button {
+    display: inline-block;
+    /* width: 50px; */
+    width: 30%;
+    padding:10px;
+    border:0px;
+    background-color: #3f0f40;
+    color:white;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.login__button:focus {
+    outline: none;
+}
+
+.login__box {
+    display: flex;
+    border: .5px solid lightgray;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 50%;
+    background-color: white;
+}
+
+.slack__logo {
+    object-fit: contain;
+    max-width: 30%;
+    margin-bottom: 10px;
+}
